@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:alpine
 
 ADD . /go/src/github.com/lwander/k8s-demo
 
