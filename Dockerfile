@@ -1,4 +1,4 @@
-FROM golang:stretch
+FROM golang
 
 ADD . /go/src/github.com/lwander/k8s-demo
 
