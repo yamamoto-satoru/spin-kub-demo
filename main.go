@@ -5,7 +5,6 @@ import (
 	"io/ioutil"
 	"os"
 	"fmt"
-	"net/http"
 )
 
 func index(w http.ResponseWriter, r *http.Request) {
