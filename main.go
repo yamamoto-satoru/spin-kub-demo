@@ -6,7 +6,6 @@ import (
 	"os"
 	"fmt"
 	"net/http"
-	"image"
 )
 
 func index(w http.ResponseWriter, r *http.Request) {
